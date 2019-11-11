@@ -1,0 +1,223 @@
+
+@article{liu2013self,
+  title={A self-trained semisupervised SVM approach to the remote sensing land cover classification},
+  author={Liu, Ying and Zhang, Bai and Wang, Li-min and Wang, Nan},
+  journal={Computers \& geosciences},
+  volume={59},
+  pages={98--107},
+  year={2013},
+  publisher={Elsevier}
+}
+
+/**
+*  Article below is very poor, not really worthy of a mention.  It simple uses k-means to split indicies into very coarse land cover classes.  Water, high vegetaion (tree), low vegetation (other stuff), Bare land, Build land.
+*/
+
+@article{gavsparovic2019automatic,
+  title={Automatic cost-effective method for land cover classification (ALCC)},
+  author={Ga{\v{s}}parovi{\'c}, Mateo and Zrinjski, Mladen and Gudelj, Marina},
+  journal={Computers, Environment and Urban Systems},
+  volume={76},
+  pages={1--10},
+  year={2019},
+  publisher={Elsevier}
+}
+
+@article{maulik2011self,
+  title={A self-trained ensemble with semisupervised SVM: An application to pixel classification of remote sensing imagery},
+  author={Maulik, Ujjwal and Chakraborty, Debasis},
+  journal={Pattern Recognition},
+  volume={44},
+  number={3},
+  pages={615--623},
+  year={2011},
+  publisher={Elsevier}
+}
+
+/**
+* Very naive 
+*/
+@article{gomez2016optical,
+  title={Optical remotely sensed time series data for land cover classification: A review},
+  author={Gomez, Cristina and White, Joanne C and Wulder, Michael A},
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume={116},
+  pages={55--72},
+  year={2016},
+  publisher={Elsevier}
+}
+
+/**
+* Inglada papers are too verbose/elaborate ...erm boring.  This paper describes how existing land cover inventories have been used for classification, so needs to be references somewhere.
+*/
+@article{inglada2017operational,
+  title={Operational high resolution land cover map production at the country scale using satellite image time series},
+  author={Inglada, Jordi and Vincent, Arthur and Arias, Marcela and Tardy, Benjamin and Morin, David and Rodes, Isabel},
+  journal={Remote Sensing},
+  volume={9},
+  number={1},
+  pages={95},
+  year={2017},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+/**
+* Highly relevant.  Actually, this looked at crop classification, which is very difficult.  
+*/
+@article{kim2017self,
+  title={Self-learning based land-cover classification using sequential class patterns from past land-cover maps},
+  author={Kim, Yeseul and Park, No-Wook and Lee, Kyung-Do},
+  journal={Remote Sensing},
+  volume={9},
+  number={9},
+  pages={921},
+  year={2017},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@article{tardy2019assessment,
+  title={Assessment of Optimal Transport for Operational Land-Cover Mapping Using High-Resolution Satellite Images Time Series without Reference Data of the Mapping Period},
+  author={Tardy, Benjamin and Inglada, Jordi and Michel, Julien},
+  journal={Remote Sensing},
+  volume={11},
+  number={9},
+  pages={1047},
+  year={2019},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@article{liu2019research,
+  title={Research advances of SAR remote sensing for agriculture applications: A review},
+  author={LIU, Chang-an and CHEN, Zhong-xin and Yun, SHAO and CHEN, Jin-song and Hasi, Tuya and PAN, Hai-zhu},
+  journal={Journal of integrative agriculture},
+  volume={18},
+  number={3},
+  pages={506--525},
+  year={2019},
+  publisher={Elsevier}
+}
+
+@article{fritz2012geo,
+  title={Geo-Wiki: An online platform for improving global land cover},
+  author={Fritz, Steffen and McCallum, Ian and Schill, Christian and Perger, Christoph and See, Linda and Schepaschenko, Dmitry and Van der Velde, Marijn and Kraxner, Florian and Obersteiner, Michael},
+  journal={Environmental Modelling \& Software},
+  volume={31},
+  pages={110--123},
+  year={2012},
+  publisher={Elsevier}
+}
+
+@article{tardy2017fusion,
+  title={Fusion approaches for land cover map production using high resolution image time series without reference data of the corresponding period},
+  author={Tardy, Benjamin and Inglada, Jordi and Michel, Julien},
+  journal={Remote Sensing},
+  volume={9},
+  number={11},
+  pages={1151},
+  year={2017},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@article{comber2013using,
+  title={Using control data to determine the reliability of volunteered geographic information about land cover},
+  author={Comber, Alexis and See, Linda and Fritz, Steffen and Van der Velde, Marijn and Perger, Christoph and Foody, Giles},
+  journal={International Journal of Applied Earth Observation and Geoinformation},
+  volume={23},
+  pages={37--48},
+  year={2013},
+  publisher={Elsevier}
+}
+
+@article{laso2016crowdsourcing,
+  title={Crowdsourcing in-situ data on land cover and land use using gamification and mobile technology},
+  author={Laso Bayas, Juan and See, Linda and Fritz, Steffen and Sturn, Tobias and Perger, Christoph and D{\"u}rauer, Martina and Karner, Mathias and Moorthy, Inian and Schepaschenko, Dmitry and Domian, Dahlia and others},
+  journal={Remote Sensing},
+  volume={8},
+  number={11},
+  pages={905},
+  year={2016},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@article{diaz2006biodiversity,
+  title={Biodiversity loss threatens human well-being},
+  author={D{\'\i}az, Sandra and Fargione, Joseph and Chapin III, F Stuart and Tilman, David},
+  journal={PLoS biology},
+  volume={4},
+  number={8},
+  pages={e277},
+  year={2006},
+  publisher={Public Library of Science}
+  
+  @article{vargo2013importance,
+  title={The importance of land cover change across urban--rural typologies for climate modeling},
+  author={Vargo, Jason and Habeeb, Dana and Stone Jr, Brian},
+  journal={Journal of environmental management},
+  volume={114},
+  pages={243--252},
+  year={2013},
+  publisher={Elsevier}
+}
+
+@article{alcock2015accounts,
+  title={What accounts for ‘England's green and pleasant land’? A panel data analysis of mental health and land cover types in rural England},
+  author={Alcock, I and White, MP and Lovell, R and Higgins, Sahran L and Osborne, NJ and Husk, K and Wheeler, BW},
+  journal={Landscape and Urban Planning},
+  volume={142},
+  pages={38--46},
+  year={2015},
+  publisher={Elsevier}
+}
+
+@article{burkhard2009landscapes,
+  title={Landscapes’ capacities to provide ecosystem services--a concept for land-cover based assessments},
+  author={Burkhard, Benjamin and Kroll, Franziska and M{\"u}ller, Felix and Windhorst, Wilhelm and others},
+  journal={Landscape online},
+  volume={15},
+  number={1},
+  pages={1--22},
+  year={2009}
+}
+
+@article{koschke2012multi,
+  title={A multi-criteria approach for an integrated land-cover-based assessment of ecosystem services provision to support landscape planning},
+  author={Koschke, Lars and F{\"u}rst, Christine and Frank, Susanne and Makeschin, Franz},
+  journal={Ecological indicators},
+  volume={21},
+  pages={54--66},
+  year={2012},
+  publisher={Elsevier}
+}
+
+@article{friedl2002global,
+  title={Global land cover mapping from MODIS: algorithms and early results},
+  author={Friedl, Mark A and McIver, Douglas K and Hodges, John CF and Zhang, Xiaoyang Y and Muchoney, D and Strahler, Alan H and Woodcock, Curtis E and Gopal, Sucharita and Schneider, Annemarie and Cooper, Amanda and others},
+  journal={Remote Sensing of Environment},
+  volume={83},
+  number={1-2},
+  pages={287--302},
+  year={2002},
+  publisher={Elsevier}
+}
+
+@article{costanza1997value,
+  title={The value of the world's ecosystem services and natural capital},
+  author={Costanza, Robert and d'Arge, Ralph and De Groot, Rudolf and Farber, Stephen and Grasso, Monica and Hannon, Bruce and Limburg, Karin and Naeem, Shahid and O'neill, Robert V and Paruelo, Jose and others},
+  journal={nature},
+  volume={387},
+  number={6630},
+  pages={253},
+  year={1997},
+  publisher={Nature publishing group}
+}
+
+@article{green1994using,
+  title={Using remote sensing to detect and monitor land-cover and land-use change},
+  author={Green, Kass and Kempka, Dick and Lackey, Lisa},
+  journal={Photogrammetric engineering and remote sensing},
+  volume={60},
+  number={3},
+  pages={331--337},
+  year={1994},
+  publisher={[Falls Church, Va.] American Society of Photogrammetry.}
+}

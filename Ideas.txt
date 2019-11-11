@@ -1,0 +1,11 @@
+Experiments.
+
+1.  Need to determine the typical spectral variance for simulating land cover.   To do this determine the 10 (9? better for visual presentation of accuracy) commonest UK land cover types.  Use google earth engine to determine average seasonal reflectance and variance of each band.
+
+2.  Which bands shall we use.  Ask Clare?  
+
+TO DO:
+
+1.  Select (10 but use 9) 9 land cover types within a 100x100m grid.
+2.  Create a Sentinel-2 composite with the modal pixel of each quarter
+3.  For each land cover type calculate the mean ( of modal) reflectance for each band, and variance. 
