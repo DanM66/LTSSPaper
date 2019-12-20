@@ -1,0 +1,15 @@
+\paragraph{Landscapes}
+A real-world landscape is a complex mosaic of common, rare and interacting land cover types with varying extents.  For the purpose of illustration and interpretation we use simplified landscapes, or grid-scapes. This simplification assists understanding by separating bootstrap learning and its effects upon classification from real-world complexity and simplifies the visual interpretation of results. A grid-scape is represented by 400 x 400 land cover units, or land parcels, of 100x100 pixels.  Each land parcel is assigned to one of sixteen land cover types.  Land parcels of the same land cover type are blocked into a 4 x 4 grid (Figure *) so that each square block contains 100x100 land parcels.  Satellite data are simulated for each land cover type.
+
+
+\paragraph{Simulating satellite image}
+We anticipate that Sentinel-2 (and Landsat-type) optical data will be widely used for land cover classification so reflectance is simulated for nine optical bands of Sentinel-2 (Sentinel-2 bands  *).  For each of the nine bands reflectance data are sampled from a random normal distribution for four seasons (winter, spring, summer and autumn) giving 36 bands of information per pixel.  Expected values for the 36 random normal distributions are based on seasonal reflectance observations from UK vegetation.  Median top of atmoshpere (TOA) reflectance values were calculated using the Google Earth Engine from cloud filtered Sentinel-2 data per season, giving 36-band temporal image stack of median reflectance.  A land cover maps was intersected with this image stack to determine expected median reflectance per land cover type. Standard deviations for these distributions will be varied to explore the effect of band variation on classification. The sixteen land cover types correspond to \ldots
+
+
+
+\paragraph{Training and Classification}.  A land cover classification requires a set of labelled training observations. Each land cover block contains 10,000 land parcels.  A proportion of land parcels are selected as training observations.  This proportion is varied from 1\% to 30\% to explore the effect of training volume on accuracy.  For each land parcel designated for training all underling pixels from the simulated data are put into a labelled bag.  From this bag 10000 pixels are selected at random with replacement.  Strictly speaking this bagging approach is not necessary here as land cover types have an equal area in grid-scape, but in real-world this is not upheld.  
+
+In the real-world random sampling with replacement will ensure that training 
+
+\paragraph{Land cover classification}.  Land cover classification uses bespoke software and the Weka (ref) random forest (ref) classifier.  
+ 
