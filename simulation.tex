@@ -1,10 +1,22 @@
 \paragraph{Landscapes}
-A real-world landscape is a complex mosaic of common, rare and interacting land cover types with varying extents.  For the purpose of illustration and interpretation we use simplified landscapes, or grid-scapes. This simplification assists understanding by separating bootstrap learning and its effects upon classification from real-world complexity and simplifies the visual interpretation of results. A grid-scape is represented by 400 x 400 land cover units, or land parcels, of 100x100 pixels.  Each land parcel is assigned to one of sixteen land cover types.  Land parcels of the same land cover type are blocked into a 4 x 4 grid (Figure *) so that each square block contains 100x100 land parcels.  Satellite data are simulated for each land cover type.
+A real-world landscape is a complex mosaic of common, rare and interacting land cover types with varying extents.  For the purpose of illustration and interpretation we use simplified landscapes, which we call grid-scapes. This simplification assists understanding by separating bootstrap learning and its effects upon classification from real-world complexity and simplifies the visual interpretation of results. A grid-scape is represented by 400 x 400 land cover units, or land parcels, of 100x100 pixels.  Each land parcel is assigned to one of sixteen land cover types.  Land parcels of the same land cover type are blocked into a 4 x 4 grid (Figure *) so that each square block contains 100x100 land parcels.  Satellite data are simulated for each land cover type.
 
 
 \paragraph{Simulating satellite image}
-Surface reflectance data is simulated for nine optical bands of Sentinel-2 (Sentinel-2 bands  *).  For each band reflectance data are sampled from a random normal distribution.  Each band represents a seasonal compostive (winter, spring, summer and autumn) giving 36 spectral bands per pixel.  Expected values 
- for four seasons (winter, spring, summer and autumn) giving 36 bands of information per pixel.  Expected values for the 36 random normal distributions are based on seasonal reflectance observations from UK vegetation.  ***Use the surface reflectance instead*** Median top of atmoshpere (TOA) reflectance values were calculated using the Google Earth Engine from cloud filtered Sentinel-2 data per season, giving 36-band temporal image stack of median reflectance.  A land cover maps was intersected with this image stack to determine expected median reflectance per land cover type. Standard deviations for these distributions will be varied to explore the effect of band variation on classification. The sixteen land cover types correspond to \ldots
+Surface reflectance data is simulated for nine optical bands of Sentinel-2 (Sentinel-2 bands  *).  Simulated data are sampled from a per-band random normal distribution.  Each band represents a seasonal compostive (winter, spring, summer and autumn) giving 36 spectral bands per pixel.  Expected values for the 36 random normal distributions are based on seasonal surface reflectance observations from UK vegetation.  
+
+***Use the surface reflectance instead*** Median top of atmoshpere (TOA) reflectance values were calculated using the Google Earth Engine from cloud filtered Sentinel-2 data per season, giving 36-band temporal image stack of median reflectance.  A land cover maps was intersected with this image stack to determine expected median reflectance per land cover type. Standard deviations for these distributions will be varied to explore the effect of band variation on classification. The sixteen land cover types correspond to \ldots
+
+
+Conifer
+Deciduous
+Improved grass
+Acid grass
+Heather
+Fen
+Water
+Urban
+Suburban
 
 
 
